@@ -9,7 +9,6 @@ def GetErrorDetails(error, error_details: sys):
 
     return error_message
 
-
 class CustomeException(Exception):
     def __init__(self, error, error_message: sys):
         super().__init__(error_message)
